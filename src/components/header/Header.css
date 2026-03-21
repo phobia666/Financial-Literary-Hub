@@ -1,0 +1,174 @@
+
+.head{
+  position: relative;
+  width: 100%;
+  background-color: rgb(46, 60, 24);
+}
+
+.header{
+    margin: 0px 20px 0px 20px;
+    padding: 20px 40px 20px 40px;
+    background: linear-gradient(to right, black, rgb(0, 0, 0), black, #002a00,   green);
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    gap: 10%;
+    border-radius: 20px;
+    /* left: -20px; */
+    /* background-color: #212121; */
+    /* margin: 0px 20px 0px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(0, 128, 49);
+}
+
+.nav{
+    height: 70px;
+    /* margin: 20px; */
+    padding: 30px 50px 30px 50px;
+    
+    /* margin-left: 50%; */
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 50px;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.nav p{
+    border: 1px solid #57eb95;
+    padding: 10px 20px 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(201, 201, 201);
+}
+
+.nav p:hover{
+    /* color: #57eb95; */
+    transform: translateY(-5px);
+}
+.title{
+
+    /* background-color: green; */
+    border-radius: 20px;
+}
+.title h1{
+    /* padding-left: 50px; */
+    font-family: 'Syne', sans-serif;
+    font-weight: 900;
+    margin: 10px 50px 10px 60px;
+    color: #57eb95;
+    font-size: 50px;
+    /* background-color: purple; */
+}
+.title p{
+    width: 70%;
+    margin-left: 7%;
+    color: rgb(158, 158, 158);
+}
+
+/* Full-viewport hero + JAI HIND card centered on the image */
+.hero-fullscreen{
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background-image: url("https://images.pexels.com/photos/6771899/pexels-photo-6771899.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jai-hind-overlay{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: min(640px, 100%);
+    box-sizing: border-box;
+}
+
+.jai-hind-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 34px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.45);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    animation: softFloat 2.2s ease-in-out infinite;
+    transition: transform 0.35s ease;
+}
+
+.jai-hind-text{
+    font-family: 'Playfair 12pt';
+    margin: 0;
+
+    /* font-size: 54px; */
+    /* font-weight: 900; */
+    letter-spacing: 3px;
+    color: #62eca9;
+    text-shadow: 0 0 16px rgba(255, 153, 51, 0.85);
+    animation: pulseGlow 1.8s ease-in-out infinite;
+    font-size: 54px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #ff9933, white, #138808);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+  letter-spacing: 3px;
+}
+
+.jai-hind-subtext{
+    margin: 12px 0 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+@keyframes pulseGlow{
+    0%{
+        opacity: 0.75;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 1;
+        transform: scale(1.03);
+    }
+    100%{
+        opacity: 0.75;
+        transform: scale(1);
+    }
+}
+
+@keyframes softFloat{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-3px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+

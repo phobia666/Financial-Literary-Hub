@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fira code';
+    color: rgb(255, 255, 255);
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+/* Lets header + hero fill one viewport without collapsing layout */
+#root{
+    min-height: 100dvh;
+    min-height: 100vh;
+}
+
+body{
+    background-color: #373737;
+}

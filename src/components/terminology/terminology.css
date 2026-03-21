@@ -1,0 +1,73 @@
+.terminology-section {
+  padding: 40px 0px 0px 0px;
+  text-align: center;
+  background: rgb(46, 60, 24);
+  padding-bottom: 40px;
+}
+
+.terminology-section h2 {
+  font-family: 'Syne', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.terminology-section p {
+  /* color: #555; */
+  margin-bottom: 20px;
+}
+
+/* TERMS */
+.terms {
+  width: 40%;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.terms span {
+    display: inline-block;
+  background: green;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  transition: 0.3s;
+  opacity: 0;
+  transform: translateY(-15px);
+
+  /* animation */
+  animation: slideDown 0.5s ease forwards;
+}
+
+@keyframes slideDown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.terms span:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(186, 186, 186, 0.3);
+}
+
+/* BUTTON */
+.view-btn {
+  padding: 8px 16px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.view-btn:hover{
+    transform: translateY(-5px);
+}
+
+.view-btn:hover {
+  background: #333;
+}
