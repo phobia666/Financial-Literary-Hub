@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-container">
         <div className="footer-brand">
           <h2>Finance Guide</h2>
@@ -15,10 +15,10 @@ function Footer() {
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
-            <li>Home</li>
-            <li>Core Concepts</li>
-            <li>Terms</li>
-            <li>Contact Us</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#core-concepts">Core Concepts</a></li>
+            <li><a href="#terms">Terms</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
 
@@ -26,10 +26,10 @@ function Footer() {
         <div className="footer-links">
           <h3>Topics</h3>
           <ul>
-            <li>Budgeting</li>
-            <li>Saving</li>
-            <li>Investing</li>
-            <li>Debt</li>
+            <li><a href="#core-concepts">Budgeting</a></li>
+            <li><a href="#core-concepts">Saving</a></li>
+            <li><a href="#core-concepts">Investing</a></li>
+            <li><a href="#core-concepts">Debt</a></li>
           </ul>
         </div>
 

@@ -12,7 +12,7 @@ const Card = () => {
   }
 
   return (
-    <div className="centre">
+    <div className="centre" id="core-concepts">
       <div className="card-title">
         <div className="title-back">
           <div className="title-left">

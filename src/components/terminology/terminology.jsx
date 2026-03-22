@@ -7,7 +7,7 @@ function TerminologySection() {
     const visibleTerms = showAll ? financeTags : financeTags.slice(0, 5);
     
   return (
-    <div className="terminology-section">
+    <div className="terminology-section" id="terms">
       <h2>FINANCE TERMINOLOGIES</h2>
       <p>
         Learn common financial terms in simple language to make better money decisions.
