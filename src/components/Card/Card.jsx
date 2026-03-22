@@ -22,8 +22,7 @@ const Card = () => {
           <div className="title-right">
             <p>From budgeting basics to smart investing — explore 10 essential finance topics designed to help you make better decisions with your money.</p>
           </div>
-        </div>
-        
+        </div>   
       </div>
       <div className="card-section">
         {financeTerms.map((term) => (

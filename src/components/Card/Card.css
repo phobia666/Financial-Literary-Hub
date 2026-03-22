@@ -115,6 +115,12 @@
     justify-content: space-between;
     gap: 10%;
     border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.title-back:hover{
+    box-shadow: 2px 2px 20px black;
+    transform: translateY(-6px);
 }
 
 .title-left{
