@@ -13,8 +13,6 @@ body{
     height: 100%;
     width: 100%;
 }
-
-/* Lets header + hero fill one viewport without collapsing layout */
 #root{
     min-height: 100dvh;
     min-height: 100vh;
@@ -24,7 +22,6 @@ body{
     background-color: #373737;
 }
 
-/* Anchor targets: offset so section titles aren’t flush under the browser chrome */
 #core-concepts,
 #terms,
 #contact {
